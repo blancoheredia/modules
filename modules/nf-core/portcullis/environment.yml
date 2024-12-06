@@ -1,0 +1,6 @@
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  # renovate: datasource=conda depName=bioconda/portcullis
+  - bioconda::portcullis=1.2.4

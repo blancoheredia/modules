@@ -1,0 +1,10 @@
+- name: portcullis test_portcullis
+  command: nextflow run ./tests/modules/nf-core/portcullis -entry test_portcullis -c ./tests/config/nextflow.config -c ./tests/modules/nf-core/portcullis/nextflow.config -stub
+  tags:
+    - portcullis
+  files:
+    - path: output/portcullis/test.log
+    - path: output/portcullis/test.bed
+    - path: output/portcullis/test.tab
+    - path: output/portcullis/test.txt
+    - path: output/portcullis/versions.yml
